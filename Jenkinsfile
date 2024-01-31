@@ -8,7 +8,8 @@ pipeline {
                     git url: 'https://github.com/Nikusharoot/your-helm-chart-repo.git'
                     
                     // Deploy the Helm chart
-                    sh 'helm install my-app ./your-helm-chart-repo --namespace nika'
+                    sh 'helm install my-app /home/azureuser/your-helm-chart-repo --namespace nika'
+
                 }
             }
         }
