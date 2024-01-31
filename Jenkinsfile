@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     // Clone your Helm chart repository
-                    git url: 'https://github.com/your-username/your-helm-chart-repo.git'
+                    git url: 'https://github.com/Nikusharoot/your-helm-chart-repo.git'
                     
                     // Deploy the Helm chart
                     sh 'helm install my-app ./your-helm-chart-repo --namespace nika'
